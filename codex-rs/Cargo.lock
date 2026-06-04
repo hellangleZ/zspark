@@ -2020,7 +2020,7 @@ dependencies = [
  "serde",
  "serde_json",
  "serde_with",
- "similar",
+ "similar 3.1.0",
  "strum_macros 0.28.0",
  "tempfile",
  "thiserror 2.0.18",
@@ -2100,7 +2100,7 @@ dependencies = [
  "codex-utils-absolute-path",
  "codex-utils-cargo-bin",
  "pretty_assertions",
- "similar",
+ "similar 3.1.0",
  "tempfile",
  "thiserror 2.0.18",
  "tokio",
@@ -2570,7 +2570,7 @@ dependencies = [
  "serial_test",
  "sha1",
  "shlex",
- "similar",
+ "similar 3.1.0",
  "tempfile",
  "test-case",
  "test-log",
@@ -2945,7 +2945,7 @@ dependencies = [
  "regex",
  "schemars 0.8.22",
  "serde",
- "similar",
+ "similar 3.1.0",
  "tempfile",
  "thiserror 2.0.18",
  "tokio",
@@ -4341,7 +4341,7 @@ dependencies = [
  "reqwest",
  "serde_json",
  "shlex",
- "similar",
+ "similar 3.1.0",
  "tempfile",
  "tokio",
  "tokio-tungstenite",
@@ -7804,7 +7804,7 @@ checksum = "e82db8c87c7f1ccecb34ce0c24399b8a73081427f3c7c50a5d597925356115e4"
 dependencies = [
  "console",
  "once_cell",
- "similar",
+ "similar 2.7.0",
  "tempfile",
 ]
 
@@ -8981,7 +8981,7 @@ version = "5.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "51e219e79014df21a225b1860a479e2dcd7cbd9130f4defd4bd0e191ea31d67d"
 dependencies = [
- "base64 0.21.7",
+ "base64 0.22.1",
  "chrono",
  "getrandom 0.2.17",
  "http 1.4.0",
@@ -9449,7 +9449,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7d8fae84b431384b68627d0f9b3b1245fcf9f46f6c0e3dc902e9dce64edd1967"
 dependencies = [
  "libc",
- "windows-sys 0.45.0",
+ "windows-sys 0.61.2",
 ]
 
 [[package]]
@@ -11887,6 +11887,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "bbbb5d9659141646ae647b42fe094daf6c6192d1620870b449d9557f748b2daa"
 
 [[package]]
+name = "similar"
+version = "3.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "04d93e861ede2e497b47833469b8ec9d5c07fa4c78ce7a00f6eb7dd8168b4b3f"
+dependencies = [
+ "bstr",
+]
+
+[[package]]
 name = "simple_asn1"
 version = "0.6.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -14093,7 +14102,7 @@ version = "0.1.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c2a7b1c03c876122aa43f3020e6c3c3ee5c05081c9a00739faf7503aeba10d22"
 dependencies = [
- "windows-sys 0.48.0",
+ "windows-sys 0.61.2",
 ]
 
 [[package]]
